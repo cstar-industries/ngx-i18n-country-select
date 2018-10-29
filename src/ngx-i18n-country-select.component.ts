@@ -33,7 +33,7 @@ export class I18nCountrySelectComponent implements AfterViewChecked, OnDestroy {
     nl: 'Gelieve te kiezen...',
     pl: 'proszę wybrać...'
   };
-  private defaultLabel: string;
+  public defaultLabel: string;
 
   private sub: any;
 
